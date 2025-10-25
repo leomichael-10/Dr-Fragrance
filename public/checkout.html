@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Perfume Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>🌸 Checkout</h1>
+            <nav>
+                <a href="index.html" class="back-btn">← Back to Shop</a>
+                <div id="cart-count">Cart (0)</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container checkout-container">
+            <!-- Cart Items -->
+            <div class="cart-section">
+                <h2>Your Cart</h2>
+                <div id="cart-items">
+                    <!-- Cart items will be loaded here by JS -->
+                </div>
+                <div class="cart-total">
+                    <strong>Total: $<span id="cart-total">0.00</span></strong>
+                </div>
+            </div>
+
+            <!-- Order Form -->
+            <div class="form-section">
+                <h2>Shipping & Payment</h2>
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Delivery Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+
+                 <div class="form-group">
+                  <label>Payment Method *</label>
+                     <div class="radio-group">
+                    <label><input type="radio" name="payment" value="cash" required> Cash on Delivery</label>
+                    <label><input type="radio" name="payment" value="instapay" required> InstaPay</label>
+                    </div>
+</div>
+
+                    <button type="submit" class="submit-btn">Place Order</button>
+                </form>
+
+                <div id="success-message" class="success-message"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Dior Sauvage",
+    "brand": "Dior",
+    "price": 120,
+    "size": "100ml",
+    "description": "A fresh, bold fragrance for men."
+  },
+  {
+    "id": 2,
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "price": 150,
+    "size": "75ml",
+    "description": "A floral perfume for women."
+  },
+  {
+    "id": 3,
+    "name": "Chanel No. 5",
+    "brand": "Chanel",
+    "price": 130,
+    "size": "50ml",
+    "description": "An iconic and timeless fragrance."
+  },
+  {
+    "id": 4,
+    "name": "Tom Ford Black Orchid",
+    "brand": "Tom Ford",
+    "price": 165,
+    "size": "100ml",
+    "description": "A luxurious and sophisticated scent."
+  },
+  {
+    "id": 5,
+    "name": "Versace Eros",
+    "brand": "Versace",
+    "price": 95,
+    "size": "100ml",
+    "description": "A fresh and masculine fragrance."
+  }
+]
+
